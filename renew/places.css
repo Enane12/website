@@ -1,0 +1,85 @@
+@font-face {
+    font-family:bariol;
+    src: url(font/bariol.ttf);
+}
+@font-face {
+    font-family:bariolp;
+    src: url(font/bariolbold.ttf);
+}
+@font-face {
+    font-family: coop;
+    src: url(font/cooperm.ttf);
+}
+
+*{
+    padding: 0%;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(white,#b34ef6);
+    min-height: 100vh;
+}
+/* header */
+h1{
+    font-family: bariol;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    clear: both;  
+}
+
+h1 a{
+    text-decoration: none;
+}
+h1 a:visited{
+    color: black;
+}
+
+h1 a:hover{
+    color: #b34ef6;
+    letter-spacing: 0.1rem;
+}
+
+nav{
+    float: right;
+    margin-top: 10px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    font-family: bariolp;
+
+
+}
+nav  ul li a{
+    text-decoration: none;
+}
+nav ul li a:visited{
+    color: black;
+}
+
+nav ul li a:hover{
+    color: #b34ef6;
+}
+
+/* div*/
+
+.place{
+    clear: both;
+    padding-top: 50px;
+    padding: 30px;
+    text-align: center;
+    font-family: coop;
+}
+/* svg */
+svg{
+    height: 450px;
+    width: 350px;
+}
+.abo{
+    margin-left: 25px;
+    margin-top: -90px;
+}   
