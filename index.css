@@ -75,7 +75,7 @@ header{
 header .logo{
     text-transform: uppercase;
     color:#fff;
-    font-size: 3rem;
+    font-size: 3.1rem;
     font-weight: bolder;
 }
 
@@ -194,9 +194,10 @@ header .follow a:hover{
 }
 
 .home .content .info{
-    font-size: 2.5rem;
+    font-size: 2rem;
     color:#111;
     padding:.5rem 0;
+    text-transform: none;
 }
 
 .home .content .text{
@@ -232,19 +233,22 @@ header .follow a:hover{
 .about .row-1 .content h3{
     color:#333;
     font-size: 3.5rem;
+    padding:.5rem 0;
+    margin: 2.5rem;
 }
 
 .about .row-1 .content p{
     color:#666;
     font-size: 1.7rem;
     padding:.5rem 0;
+    margin: 2.5rem;
 }
 
 .about .row-1 .content .box-container{
-    display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
-    padding: 0.5rem 0;
+    padding: 2.5rem 1.0;
+    margin: 2.5rem;
 }
 
 .about .row-1 .content .box-container .box{
@@ -255,101 +259,58 @@ header .follow a:hover{
     color:var(--main-color);
 }
 
-.service .progress{
+.about .row-1 .content .btn{
+    padding: 0.5rem 1.0;
+    margin: .5rem;
+}
+
+.skills .progress{
     padding:1rem 0;
 }
 
-.service .progress h1{
+.skills .progress h1{
     display: flex;
     justify-content: space-between;
-    padding:.7rem 0;
+    padding:.5rem 0;
     font-size: 2.2rem;
     color:#111;
-    padding-top: 3rem;
-    font-weight: 4000;
+    padding-top: .2rem;
+    font-weight: 400rem;
 }
 
-.service .progress .bar{
+.skills .progress .bar{
     width:100%;
     background:#ccc;
-    overflow:hidden;
+    overflow: hidden;
     height:1rem;
     border-radius: 50rem;
 }
 
-.service .box-container .box .progress .span .bar{
+.skills .progress .bar span{
+
     display:block;
     height:100%;
     background:var(--main-color);
     border-radius: 50rem;
 }
 
-.service .progress:nth-child(1) .bar span{
+.skills .progress:nth-child(1) .bar span{
     width:95%;
 }
 
-.service .progress:nth-child(2) .bar span{
-    width:80%;
+.skills .progress:nth-child(2) .bar span{
+    width:70%;
 }
 
-.service .progress:nth-child(3) .bar span{
-    width:75%;
-}
-
-.service .progress:nth-child(4) .bar span{
-    width:85%;
-}
-
-.service .progress:nth-child(5) .bar span{
-    width:85%;
-}
-
-.service .progress:nth-child(6) .bar span{
-    width:85%;
-}
-
-.service .progress:nth-child(7) .bar span{
-    width:85%;
-}
-
-.service .progress:nth-child(8) .bar span{
-    width:85%;
-}
-
-.service .progress:nth-child(9) .bar span{
-    width:85%;
-}
-
-.service .box-container .box{
-    flex:1 1 15rem;
-    background:#fff;
-    padding:2rem;
-    border-radius: .5rem;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-}
-
-.box .box-container .box h1{
-    color:var(--main-color);
-    font-size: 3rem;
-}
-
-.service .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-    flex: 1 1 40rem;
-}
-
-.service .box-container .box{
+.skills .box-container .box{
     flex:1 1 30rem;
     text-align: center;
     padding:2rem;
     background:#fff;
     border-radius: .5rem;
-    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 
-.service .box-container .box i{
+.skills .box-container .box i{
     height:6rem;
     width:6rem;
     line-height: 6rem;
@@ -359,6 +320,12 @@ header .follow a:hover{
     border-radius: 50%;
 }
 
+.skills .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    flex: 1 1 40rem;
+}
 
 .portfolio .box-container{
     display: flex;
