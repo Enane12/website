@@ -265,14 +265,16 @@ header .follow a:hover{
 }
 
 .skills{
-    width: 100%;
+    width: 95%;
+    margin: 0px 60px;
     background: white;
-    padding: 25px 20px;
+    padding: 10px 20px 0px 50px;
+    border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0,0,0,.2);
 }
 
 .skills .box-container{
-    margin: 12px 0;
+    margin: 8px 0;
 }
 
 .skills .box-container .progress{
