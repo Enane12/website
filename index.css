@@ -264,104 +264,78 @@ header .follow a:hover{
     margin: .5rem;
 }
 
-
 .skills{
-    display: flexbox;
-    flex-wrap: warp;
-    gap: 1.5rem;
-    align-items: center;
-    flex: 1 1 40rem;
+    width: 100%;
+    background: white;
+    padding: 25px 20px;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
 }
 
 .skills .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
+    margin: 12px 0;
 }
 
-.skills .box{
-    flex:1 1 30rem;
-    height:14.5rem;
-    position: relative;
-    border:1rem solid #fff;
-    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
-    background:#fff;
-    border-radius: .5rem;
-    margin: 2.75rem;
+.skills .box-container .progress{
+    margin: 35px 5px;
 }
 
-.skills .progress{
-    padding: 3rem 0;
-}
-
-.skills .progress h3{
-    display: flex;
+.skills .box-container .progress h1{
     justify-content: space-between;
-    font-size: 1.7rem;
-    color: #111;
-    font-weight: 4000;
+    display: flex;    
 }
 
-.skills .progress .bar{
+
+.skills .box-container .progress .bar{
+    height: 12px;
     width: 100%;
     background: #ccc;
+    border-radius: 5px;
     overflow: hidden;
-    height: 1rem;
-    border-radius: 50rem;    
 }
 
-.skills .box-container .box .progress .bar span{
-    display: flex;
+.skills .box-container .progress .bar span{
+    display: block;
     height: 100%;
     background: var(--main-color);
+    border-radius: 5px;
 }
 
-.skills .box-container{
-    display: flex;
-    flex-wrap: wrap;
-    gap:1.5rem;
-}
-
-
-.skills .box-container .box .progress:nth-child(1) .bar span{
+.skills .box-container .progress:nth-child(1) .bar span{
     width: 75%;
 }
 
-.skills .box-container .box .progress:nth-child(2) .bar span{
+.skills .box-container .progress:nth-child(2) .bar span{
     width: 75%;
 }
 
-.skills .box-container .box .progress:nth-child(3) .bar span{
-    width: 75%;
-}
-
-.skills .box-container .box .progress:nth-child(4) .bar span{
+.skills .box-container .progress:nth-child(3) .bar span{
     width: 70%;
 }
 
-.skills .box-container .box .progress:nth-child(5) .bar span{
+.skills .box-container .progress:nth-child(4) .bar span{
     width: 65%;
 }
 
-.skills .box-container .box .progress:nth-child(6) .bar span{
+.skills .box-container .progress:nth-child(5) .bar span{
     width: 75%;
 }
 
-.skills .box-container .box .progress:nth-child(7) .bar span{
+.skills .box-container .progress:nth-child(6) .bar span{
     width: 75%;
 }
 
-.skills .box-container .box .progress:nth-child(8) .bar span{
+.skills .box-container .progress:nth-child(7) .bar span{
     width: 80%;
 }
 
-.skills .box-container .box .progress:nth-child(9) .bar span{
+.skills .box-container .progress:nth-child(8) .bar span{
     width: 60%;
 }
 
-.skills .box-container .box .progress:nth-child(10) .bar span{
-    width: 80%;
+.skills .box-container .progress:nth-child(9) .bar span{
+    width: 75%;
 }
+
 
 
 .portfolio .box-container{
