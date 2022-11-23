@@ -297,7 +297,7 @@ header .follow a:hover{
     display: block;
     height: 100%;
     background: var(--main-color);
-    border-radius: 5px;
+    border-radius: 4.5px;
 }
 
 .skills .box-container .progress:nth-child(1) .bar span{
