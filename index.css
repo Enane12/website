@@ -265,12 +265,17 @@ header .follow a:hover{
 }
 
 .skills{
-    height: 90%;
-    width: 90%;
-    margin: 10px 60px 50px  ;
+    width: 80%;
+    margin: 10px 60px 0px  ;
     background: white;
     border-radius: 5px;
     box-shadow: 5px 5px 10px rgba(0,0,0,.2);
+    margin-bottom: 30px;
+}
+
+.skills h1{
+    margin-top: -10px;
+    margin: 5px;
 }
 
 .skills .box-container{
@@ -278,7 +283,7 @@ header .follow a:hover{
 }
 
 .skills .box-container .progress{
-    margin: 35px 5px;
+    margin: 40px 5px;
 }
 
 .skills .box-container .progress h1{
@@ -512,7 +517,4 @@ header .follow a:hover{
     .experience .box-container .box{
         padding-right: 0;
     }
-<<<<<<< HEAD
 }
-=======
->>>>>>> refs/remotes/origin/master
