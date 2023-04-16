@@ -210,11 +210,11 @@ header .follow a:hover{
     display: flex;
     flex-wrap: wrap;
     gap:1.5rem;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .about .row-1 .image{
-    flex:1 1 25rem;
+    flex:1 1 35rem;
 }
 
 .about .row-1 .image img{
@@ -232,16 +232,16 @@ header .follow a:hover{
 
 .about .row-1 .content h3{
     color:#333;
-    font-size: 3.5rem;
-    padding:.5rem 0;
-    margin: 2.5rem;
+    font-size: 4.5rem;
+    padding:1.5rem 0;
+    margin: 3.5rem;
 }
 
 .about .row-1 .content p{
     color:#666;
-    font-size: 1.7rem;
-    padding:.5rem 0;
-    margin: 2.5rem;
+    font-size: 2rem;
+    padding:1rem 0;
+    margin: 3rem;
 }
 
 .about .row-1 .content .box-container{
@@ -257,6 +257,7 @@ header .follow a:hover{
 
 .about .row-1 .content .box-container .box span{
     color:var(--main-color);
+    font-weight: bold;
 }
 
 .about .row-1 .content .btn{
@@ -353,12 +354,13 @@ header .follow a:hover{
 
 .portfolio .box-container .box{
     flex:1 1 30rem;
-    height:25rem;
+    height:35rem;
     position: relative;
     border:1rem solid #fff;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     background:#fff;
     border-radius: .5rem;
+    justify-content: space-between;
 }
 
 .portfolio .box-container .box img{
@@ -409,7 +411,7 @@ header .follow a:hover{
 
 .contact .box{
     color:#111;
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin: 0.2rem 0rem;
     padding-top: 1rem;
     text-align: center;
@@ -421,8 +423,8 @@ header .follow a:hover{
 }
 
 .contact .box .mail{
-    margin: 0rem;
-    padding: 5rem .1rem;
+    margin: 5rem ;
+    padding:  5rem ;
 }
 
 .contact .box .where i{
@@ -434,7 +436,7 @@ header .follow a:hover{
 .contact .box .mail i{
     color: #23f806;
     font-size: 5rem;
-    padding: 2rem;
+    padding: 3rem;
 
 }
 
@@ -478,11 +480,11 @@ header .follow a:hover{
 @media (max-width:991px){
 
     html{
-        font-size: 55%;
+        font-size: 60%;
     }
     
     body{
-        padding: 0;
+        padding: 5rem;
     }
 
     #menu-bars{
